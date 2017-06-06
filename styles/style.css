@@ -1,0 +1,37 @@
+body {
+	background-color: white;
+	height: 100%;
+	background: url("../images/background.jpg") no-repeat center fixed;
+	background-size: cover;
+	font-family: "Helvetica";
+}
+
+#canvas {
+	border: 1px solid;
+	display: block;
+	position: absolute;
+	margin: auto;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+#copyright {
+	font-family: Helvetica;
+	font-size: 16px;
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	left: 0;
+	padding-left: 5px;
+}
+
+#git{
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	right: 0;
+	padding-right: 5px;
+	color: black;
+}
